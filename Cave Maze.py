@@ -82,10 +82,10 @@ def direc(room): #changes rooms
     room=direc(room)
     return(room)
 
-def credits(): #it prints who made the game, frankly unnecessary
-  print("This game was made by Shweta Patki, PES1UG19CS477")
+def credits(): #it prints who made the game, y'know, like this game is credited to my name
+  print("This game was made by Shweta Patki, student of PES University")
       
-def bossfight(): #dude the function is named bossfight
+def bossfight(): #uhhh the function is named bossfight
   php=30
   shp=30
   turn=0
@@ -129,7 +129,7 @@ def tkinv(inv): #takes inventory
   else:
     print("Your pockets contain :",inv)
 
-a=input("Press 0 to exist.\n") #this one makes sure i can quit if needed, to check if the whole thing is compiling, might delete later 
+a=input("Press 0 to exist.\n") #this one makes sure i can quit if needed 
 if (a!="0"): #joke lines
   print("That wasn't a typo. You will not exist now.")
   exit()
@@ -141,7 +141,7 @@ else:
   print("_//         _////// _//      _// _//    _//               _//   _/  _//  _////// _//     _//      _//      ")
   print(" _//   _// _//       _//      _////     _//               _//       _// _//       _//  _//        _//      ")
   print("   _////  _//         _//      _//      _////////         _//       _//_//         _//_///////////_////////")
-  print("\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Created in 2019 by your local cryptids ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n")
+  print("\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Created in 2019 by your local cryptid ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n")
 
 print("Welcome to the world. You are a person. You have one body, two eyes, two hands, two feet, and two noses.")
 print("You stand on a cliffside. To the east is a cave. To the west is a steep drop. The roads to the north and south are blocked by rockslides.")
